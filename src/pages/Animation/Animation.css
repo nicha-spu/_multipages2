@@ -11,7 +11,7 @@
     width: 300px;
     height: 200px;
     margin: 10px;
-    background-image: url('./images/wood-texture-background-seamless-wood-floor-texture_578102-577.jpeg');
+    background-image: url('public/wood-texture-background-seamless-wood-floor-texture_578102-577.jpeg');
     background-position: center;
     background-size: 100%;
 }
@@ -20,7 +20,6 @@
     width: 50px;
     height: 50px;
     background-color: rgb(7, 117, 243);
-    /* background-image: url('./images/Basketball_PNG_Transparent_Clipart.png'); */
     background-position: center;
     background-size: 100%;
     position: relative;
