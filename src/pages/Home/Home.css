@@ -1,0 +1,90 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #eaeaea;
+    padding: 20px;
+}
+
+.profile-name {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-me, .skills, .education, .projects, .academic-interests, .extracurricular, .hobbies {
+    color: #007BFF; 
+    margin: 15px 0;
+}
+.projects, .academic-interests, .extracurricular, .hobbies {
+    text-align: center;
+}
+
+.profile-img {
+    width: 350px;
+    height: auto;
+    border-radius: 20%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1020px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    margin-right: 20px;
+    margin: 0 30px 0 30px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.lower-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.lower-section div {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cartoon {
+    position: relative; 
+    width: 100%; 
+    height: 100px; 
+    overflow: hidden; 
+}
+
+.cartoon .moving-cartoon {
+    width: 80px;
+    height: auto;
+    transition: left 0.5s, top 0.5s;
+}

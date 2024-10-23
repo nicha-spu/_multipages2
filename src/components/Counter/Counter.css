@@ -1,0 +1,22 @@
+.counter-name{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(182, 182, 182);
+    margin-left: 1em;
+}
+
+.counter-button {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.title {
+    color: darkblue;
+    
+}
+
+.counter-value {
+    font-size: x-large;
+    margin: 0 0.5em;
+}

@@ -1,0 +1,36 @@
+.add-container {
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem  0.5rem 0.5rem;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    background-color:#ffffff;
+    
+}
+
+.add-title {
+    color: darkblue;
+}
+
+
+.add-display {
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+    
+}
+.add-variable {
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr;
+}
+.text-centerA{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    color: darkblue;
+}
+.text-centerB{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    color: darkblue;
+}

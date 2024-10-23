@@ -1,0 +1,31 @@
+#container{
+    border: 1px solid rgb(241, 9, 9);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 10px auto; 
+    align-content: space-around;
+}
+#field{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-image: url('./images/wood-texture-background-seamless-wood-floor-texture_578102-577.jpeg');
+    background-position: center;
+    background-size: 100%;
+}
+#ball{
+    border-radius: 70%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(7, 117, 243);
+    /* background-image: url('./images/Basketball_PNG_Transparent_Clipart.png'); */
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+#counter{
+    margin: 10px;
+}
+  

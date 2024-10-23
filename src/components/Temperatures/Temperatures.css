@@ -1,0 +1,46 @@
+.temperatures-container{
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #ffffff;
+    color: darkblue;
+    margin-left: 1em;
+    margin-right: 1em;
+
+  
+}
+.temperatures-variables{
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+}
+.temperatures-title{
+    color: darkblue;
+}
+.temperatures-display{
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-around;
+    
+}
+.temperatures-celsius{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    color: darkblue;
+
+}
+.temperatures-fahrenheit{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    color: darkblue;
+
+}
+.temperatures-kelvin{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    color: darkblue;
+
+}

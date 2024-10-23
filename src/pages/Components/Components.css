@@ -1,0 +1,6 @@
+.components-container {
+  background: url('/images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+
+  
+  .calculator {
+    width: 320px;
+    background-color: rgb(44, 43, 43);
+    color: #ffffff; 
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .display {
+    background-color: #333;
+    /* color: white; สีข้อความในหน้าจอ */
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .calculator .btn {
+    background-color: #4e4e4e;
+    color: white; 
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calculator .btn.grey {
+    background-color: #a5a5a5;
+  }
+  
+  .calculator .btn.orange {
+    background-color: #f09a36;
+  }
+  
+  .calculator .btn:hover {
+    background-color: #616161;
+  }
+  
+  .calculator .btn.orange:hover {
+    background-color: #ff9e4d;
+  }
+  
