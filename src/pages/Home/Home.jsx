@@ -41,7 +41,7 @@ function Home() {
         <div className="profile">
           <img
             className="profile-img"
-            src="images/Human.jpeg"
+            src="Human.jpeg"
             alt="My Photo"
           />
           <div className="info">
@@ -92,7 +92,7 @@ function Home() {
         <div className="cartoon">
           <img
             className="moving-cartoon"
-            src="images/large.jpeg"
+            src="large.jpeg"
             alt="Cartoon"
             style={{ position: "absolute", left: "0px" }}
           />

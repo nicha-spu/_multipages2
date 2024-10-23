@@ -36,7 +36,7 @@ function Login({ setToken, setRole }) {
 
   return (
     <div className="login-container">
-      <img className="login-image" src="images/large.jpeg" alt="" srcset="" />
+      <img className="login-image" src="large.jpeg" alt="" srcset="" />
       <Form.Group controlId="username">
         <Form.Label>Username</Form.Label>
         <Form.Control

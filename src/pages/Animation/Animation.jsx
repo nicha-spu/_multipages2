@@ -114,7 +114,7 @@ function Animation() {
         <Button
           id="basketball"
           variant={selectedButton === 'basketball' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Basketball.png', 'basketball')}
+          onClick={() => changeImage('Basketball.png', 'basketball')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Basketball
@@ -122,7 +122,7 @@ function Animation() {
         <Button
           id="football"
           variant={selectedButton === 'football' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Football.png', 'football')}
+          onClick={() => changeImage('Football.png', 'football')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Football
@@ -130,7 +130,7 @@ function Animation() {
         <Button
           id="volleyball"
           variant={selectedButton === 'volleyball' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Volleyball.png', 'volleyball')}
+          onClick={() => changeImage('Volleyball.png', 'volleyball')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Volleyball
@@ -138,7 +138,7 @@ function Animation() {
         <Button
           id="human"
           variant={selectedButton === 'human' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Human.jpeg', 'human')}
+          onClick={() => changeImage('Human.jpeg', 'human')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Human
@@ -146,7 +146,7 @@ function Animation() {
         <Button
           id="cartoon"
           variant={selectedButton === 'cartoon' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Cartoon.jpeg', 'cartoon')}
+          onClick={() => changeImage('Cartoon.jpeg', 'cartoon')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Cartoon
@@ -154,7 +154,7 @@ function Animation() {
         <Button
           id="logo"
           variant={selectedButton === 'logo' ? 'primary' : 'outline-primary'}
-          onClick={() => changeImage('images/Logo.png', 'logo')}
+          onClick={() => changeImage('Logo.png', 'logo')}
           className="me-2" // เพิ่มระยะห่าง
         >
           Logo
